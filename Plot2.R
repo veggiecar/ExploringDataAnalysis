@@ -17,5 +17,3 @@ plot(y, (as.numeric(as.character(data$Global_active_power))), type = "l",
      ylab = "Global Active Power (killowatts)", xlab = "")
 dev.copy(device = png, filename = 'Plot2.png', width = 480, height = 480) 
 dev.off()
-
-par(mfrow=c(1,1))
