@@ -18,7 +18,7 @@ plot(y, (as.numeric(as.character(data$Global_active_power))), type = "l",
 
 plot(y, (as.numeric(as.character(data$Voltage))), type = "l", 
      ylab = "Voltage", xlab = "datetime")
-par(new=TRUE)
+
 plot(y, (as.numeric(as.character(data$Sub_metering_1))), type="l", col="black", 
      xlab="", ylab="Energy sub metering", cex.lab = 1, yaxt="n")
 axis(2,cex.axis = .8, at = seq(0, 30, by = 10), las=2)
